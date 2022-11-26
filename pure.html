@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pure.css">
     <script src="index.js"></script>
     <title>Document</title>
 </head>
@@ -15,13 +15,20 @@
         <div class="pure-u-sm-3-4 pure-u-md-3-4 pure-u-lg-3-4 pure-u-xl-3-4" id="colorFill">COLOR FILL</div>
     </div>
     <div class="pure-g" id="topImg">
-        <img class="pure-img" id="giraffe" src="assets/giraffes.jpg"></img>
+        <img class="pure-img" id="giraffe" src="./assets/images/giraffes.jpg"></img>
     </div>
     <form class="pure-form" id="searchBar">
         <input type="text" id="City" placeholder="City">
+        <section id="search-bar" class="search-bar">
+            <form id="search-form">
+              <label for="search-input">Search for city</label>
+              <input type="text" name="search-input" id="search-input" />
+              <button type="submit">Enter</button>
+            </form>
+          </section>
     </form>
     <div class="pure-g" id="bottomImg">
-        <img class="pure-img" id="print" src="assets/print.jpg"></img>
+        <img class="pure-img" id="print" src="./assets/images/print.jpg"></img>
     </div>
     <div class="pure-g" id="footer">
         <div class=" pure-u-sm-6-24 pure-u-md- pure-u-lg-6-24 pure-u-xl-6-24" id="about">About</div>
