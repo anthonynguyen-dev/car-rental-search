@@ -152,3 +152,15 @@ body {
     text-align: center;
     margin-right: 10%;
 }
+#aboutpage {
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+    background-color: rgb(96,93,48);
+    color: black;
+    height: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
