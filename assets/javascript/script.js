@@ -4,11 +4,6 @@ var placesJSON;
 var citySearch = document.querySelector("#search-form");
 var searchInput = document.querySelector("#search-input");
 var searchResults = document.querySelector(".search-results");
-var listEl = document.createElement("ol");
-var li1 = document.createElement("li");
-var li2 = document.createElement("li");
-var li3 = document.createElement("li");
-var li4 = document.createElement("li");
 
 citySearch.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -54,8 +49,8 @@ function getLocation(city) {
 
 function addSearchResults(results) {
   console.log(results.items[0].title);
+  searchResults.innerHTML = "";
   for (var i = 0; i < results.items.length; i += 1) {
-    //searchResults.textContent = results.items[i].title;
     let li = document.createElement("li");
     let br = document.createElement("br");
     searchResults.append(
