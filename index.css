@@ -16,7 +16,7 @@ body {
     justify-content: center;
     vertical-align: middle;
     display: inline-block;
-    z-index: 4;
+    z-index: 7;
     position: relative;
     margin-left: 0;
     margin-right: 100%;
@@ -77,14 +77,15 @@ body {
 }
 
 #bottomImg {
-    max-height: 25%;
+    background-color: rgb(96,93,48);
 }
-#print {
+.print {
     position: relative;
-    height: 300px;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: block; 
     object-fit: cover;
+    background-image: url("assets/print.jpg")
 }
 #resultsBox {
     justify-content: center;
@@ -133,7 +134,6 @@ body {
 #safety {
     font-family: serif;
     font-size: 25px;
-    background-color: rgb(96,93,48);
     text-align: center;
     justify-content: center;
     vertical-align: middle;
@@ -164,3 +164,19 @@ body {
     padding-top: 60px;
     padding-bottom: 40px;
 }
+ ul {
+    background-color: transparent;
+     color: black;
+     width: auto;
+     height: 400px;
+     overflow: scroll;
+     margin: 0 !important;
+ }
+
+
+
+
+
+
+
+
