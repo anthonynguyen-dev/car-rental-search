@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="pure-g" id="navBar">
+    <div class="pure-g print" id="navBar">
         <div class="pure-u-sm-1-4 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4" id="logoHere"></div>
         <div class="pure-img" id="zooSearch" src="assets/smallLogo.jpg"></div>
         <div class="pure-u-sm-3-4 pure-u-md-3-4 pure-u-lg-3-4 pure-u-xl-3-4" id="colorFill"></div>
@@ -23,19 +23,19 @@
     <div class="pure-g" id="topImg">
         <img class="pure-img" id="giraffe" src="assets/giraffes.jpg"></img>
     </div>
-    <div class="pure-g" id="searchTools">
-        <form class="pure-form" id="searchBar" src="assets/search.jpg">
-            <input type="text" id="city" placeholder="City..."></input>
-        </form>
-        <button class="pure-button" id="icon">&#128269</button>
-    </div>
-    <div class="pure-g" id="resultsBox">
-        <div class="pure-u-1 pure-u-sm-1-4 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4" id="results">Results</div>
-    </div>
     <div class="pure-g" id="bottomImg">
-        <img class="pure-img" id="print" src="assets/print.jpg"></img>
+        <section id="search-bar" class="search-bar">
+            <form id="search-form">
+              <label for="search-input"></label>
+              <input type="text" name="search-input" id="search-input" placeholder="City..." />
+              <button type="submit">Enter</button>
+            </form>
+          </section>
+          <div class="pure-g" id="bottomImg">
+            <ul class="search-results"></ul>
+          </div>
     </div>
-    <div class="pure-g" id="footer">
+    <div class="pure-g print" id="footer">
         <div class=" pure-u-sm-6-24 pure-u-md- pure-u-lg-6-24 pure-u-xl-6-24" id="about">
             <a href="./about.html">About</a>
         </div>
@@ -47,6 +47,6 @@
 
 </body>
 
-<script src="assets/javascript/script.js"></script>
+<script src="./assets/javascript/script.js"></script>
 
 </html>
