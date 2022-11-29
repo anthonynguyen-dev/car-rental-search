@@ -1,4 +1,4 @@
-# car-rental-search
+# Zoo-search
 
 AS A consumer looking to find a zoo to visit.
 I WANT to search on an app that gives me zoo options in a desired city.
@@ -11,6 +11,6 @@ The goal of this application is to provide a list of zoo(s) within the search cr
 
 
 
-[deployed Link Here]()
+[deployed Link Here](https://anthonynguyen-dev.github.io/zoo-search/)
 
-![site image]()
+![site image](https://github.com/anthonynguyen-dev/zoo-search/blob/main/launch-site-image.png?raw=true)
