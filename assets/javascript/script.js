@@ -13,7 +13,7 @@ citySearch.addEventListener("submit", function (event) {
 
 function searchLocation(location) {
   console.log(location);
-  var placesAPI = `https://places.ls.hereapi.com/places/v1/discover/here?apiKey=${mapsApi}&at=${location.lat},${location.lon};r=2000&pretty`;
+  var placesAPI = `https://places.ls.hereapi.com/places/v1/discover/here?apiKey=${mapsApi}&at=${location.lat},${location.lon};r=1000&pretty`;
   var browseAPI = `https://places.ls.hereapi.com/places/v1/browse?at=${location.lat},${location.lon}&cat=zoo&apiKey=${mapsApi}`;
   fetch(browseAPI)
     .then(function (response) {
